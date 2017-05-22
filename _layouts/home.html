@@ -3,8 +3,6 @@ layout: default
 ---
 
 <div class="home">
-  
-  {{ content }}
 
   <ul class="post-list">
     {% for page in site.pages %}
@@ -14,6 +12,8 @@ layout: default
         </h2>
       </li>
     {% endfor %}
+
+    {{ content }}
   </ul>
 
 </div>
