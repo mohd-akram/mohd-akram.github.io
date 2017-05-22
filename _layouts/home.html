@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  {{ content }}
+
+  <ul class="post-list">
+    {% for page in site.pages %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
