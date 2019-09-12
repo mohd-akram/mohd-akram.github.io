@@ -4,6 +4,12 @@
 
 @import "minima";
 
+@media screen and (min-width: 600px) {
+  .post-list {
+    columns: 2;
+  }
+}
+
 .post-link {
   display: initial;
 }
