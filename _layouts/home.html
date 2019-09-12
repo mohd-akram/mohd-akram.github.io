@@ -6,11 +6,13 @@ layout: default
 
   <ul class="post-list">
     {% for page in site.pages %}
+    {% if page.title %}
       <li>
         <h2>
           <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
         </h2>
       </li>
+    {% endif %}
     {% endfor %}
 
     {{ content }}
