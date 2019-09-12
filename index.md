@@ -34,7 +34,7 @@
 <ul class="post-list">
   <li>
     <h3>
-      <a class="post-link" href="https://source.cards">source.cards</a>
+      <a class="post-link" href="https://cinemaseats.net">cinemaseats.net</a>
     </h3>
   </li>
 
@@ -46,13 +46,13 @@
 
   <li>
     <h3>
-      <a class="post-link" href="https://plic.ml">plic.ml</a>
+      <a class="post-link" href="https://source.cards">source.cards</a>
     </h3>
   </li>
 
   <li>
     <h3>
-      <a class="post-link" href="https://cinemaseats.net">cinemaseats.net</a>
+      <a class="post-link" href="https://plic.ml">plic.ml</a>
     </h3>
   </li>
 </ul>
