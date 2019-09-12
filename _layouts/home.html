@@ -4,18 +4,19 @@ layout: default
 
 <div class="home">
 
+  {{ content }}
+
+  <h2>Experiments</h2>
   <ul class="post-list">
     {% for page in site.pages %}
     {% if page.title %}
       <li>
-        <h2>
+        <h3>
           <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-        </h2>
+        </h3>
       </li>
     {% endif %}
     {% endfor %}
-
-    {{ content }}
   </ul>
 
 </div>
