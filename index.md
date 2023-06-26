@@ -52,7 +52,7 @@
 
   <li>
     <h3>
-      <a class="post-link" href="https://plic.ml">plic.ml</a>
+      <a class="post-link" href="https://plic.cc">plic.cc</a>
     </h3>
   </li>
 </ul>
