@@ -34,6 +34,12 @@
 <ul class="post-list">
   <li>
     <h3>
+      <a class="post-link" href="https://bingl.es">bingl.es</a>
+    </h3>
+  </li>
+
+  <li>
+    <h3>
       <a class="post-link" href="https://manp.gs">manp.gs</a>
     </h3>
   </li>
